@@ -1,0 +1,28 @@
+.signup-form input{
+    margin: 15px 0px !important;
+    width: 77%;
+}
+.sel-dept, .sel-clg, .sel-year{
+    width: 77%;
+}
+.submit-btn{
+    width: 77%;
+}
+img{
+    max-width: 100%;
+    margin-top: 14px;
+}
+h2{
+    margin-top: 35px;
+    text-align: center;
+}
+form{
+    margin-top: 33px;
+}
+
+@media only screen and (max-width: 600px){
+    .sel-dept, .sel-clg, .sel-year, .signup-form input, .submit-btn{
+        width: 100%;
+    }
+    
+}
