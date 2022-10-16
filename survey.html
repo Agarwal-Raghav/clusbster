@@ -1,0 +1,262 @@
+<?php include 'common/links.php'; ?>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href='css/survey.css'>
+          <!-- Latest compiled and minified CSS -->
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+          <!-- jQuery library -->
+          <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+      
+          <!-- Popper JS -->
+          <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+      
+          <!-- Latest compiled JavaScript -->
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+      
+          <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+       <!-- questions div start -->
+ <div class='container-fluid'>
+   <h2 class='text-center'>Just Answer few questions</h2><hr>
+  <div class='quediv'> 
+
+    <div class='que'>
+      <h4>1. Imagine a situation where you have to ask a person you are not in good terms with for their help for your very important work. What will you do?</h4>
+      <div class='row q-radio-div'> 
+        <div class='col-md-2'>
+            <label class='radio-inline'>
+              <input type='radio' class='q-radio' value='op1' name='que1'>Will ask for their help politely and make them understand my situation.
+            </label>
+        </div>
+        <div class='col-md-2'>
+            <label class='radio-inline'>
+              <input type='radio' class='q-radio' value='op2' name='que1'>Will not ask for their help and try to do that my work on my own.
+            </label>
+        </div>
+        <div class='col-md-2'>
+            <label class='radio-inline'>
+              <input type='radio' class='q-radio' value='op3' name='que1'>Will ask them for help but won’t show any sincerity towards them.
+            </label>
+        </div>
+        <div class='col-md-2'>
+            <label class='radio-inline'>
+              <input type='radio' class='q-radio' value='op4' name='que1'>Will drop the work instead.
+            </label>
+        </div>
+       </div>
+</div><hr>
+
+
+
+    <div class='que'>
+      <h4>2. Imagine a situation where you have to pool money for some charity. But when you started collecting money you received more money than expected and hence got a huge amount. What will you do?</h4>
+      <div class='row q-radio-div'> 
+        <div class='col-md-2'>
+            <label class='radio-inline'>
+              <input type='radio' class='q-radio' value='op1' name='que2'>Will honestly submit the money I have received for a good cause.
+            </label>
+        </div>
+        <div class='col-md-2'>
+            <label class='radio-inline'>
+              <input type='radio' class='q-radio' value='op2' name='que2'>I will keep some extra money with myself and give the rest for some good cause.
+            </label>
+        </div>
+        <div class='col-md-2'>
+            <label class='radio-inline'>
+              <input type='radio' class='q-radio' value='op3' name='que2'>I will rather keep all the money with me.
+            </label>
+        </div>
+        <div class='col-md-2'>
+            <label class='radio-inline'>
+              <input type='radio' class='q-radio' value='op4' name='que2'>I will only collect the maximum money which is required and will return the rest money to their  owners.
+            </label>
+        </div>
+
+       </div>
+</div><hr>
+
+
+    <div class='que'>
+      <h4>3. Imagine a situation where you accidentally committed a huge mistake and now the one against whom this mistake is committed is worried what you will do ?</h4>
+      <div class='row q-radio-div'> 
+        <div class='col-md-2'>
+            <label class='radio-inline'>
+              <input type='radio' class='q-radio' value='op1' name='que3'>I will hide my mistake from that person and let him be as it is.
+            </label>
+        </div>
+        <div class='col-md-2'>
+            <label class='radio-inline'>
+              <input type='radio' class='q-radio' value='op2' name='que3'>I will try to explain that person and will apologise from them.
+            </label>
+        </div>
+        <div class='col-md-2'>
+            <label class='radio-inline'>
+              <input type='radio' class='q-radio' value='op3' name='que3'>I will rather hide this fact that I have committed the mistake but will help them to get the work corrected again
+            </label>
+        </div>
+        <div class='col-md-2'>
+            <label class='radio-inline'>
+              <input type='radio' class='q-radio' value='op4' name='que3'>I will rather blame that person instead and hide the truth from them
+            </label>
+        </div>
+
+       </div>
+</div><hr>
+
+
+
+    <div class='que'>
+      <h4>4. Imagine a situation where you have to quit a very bad addictive habit but you are facing some problems in doing so what you will do then?</h4>
+      <div class='row q-radio-div'> 
+        <div class='col-md-2'>
+            <label class='radio-inline'>
+              <input type='radio' class='q-radio' value='op1' name='que4'>I will drop the idea of quitting that habit and continue it
+            </label>
+        </div>
+        <div class='col-md-2'>
+            <label class='radio-inline'>
+              <input type='radio' class='q-radio' value='op2' name='que4'>I will keep trust on myself and will keep on trying to quit it
+            </label>
+        </div>
+        <div class='col-md-2'>
+            <label class='radio-inline'>
+              <input type='radio' class='q-radio' value='op3' name='que4'>I will rather try to do that thing occasionally 
+            </label>
+        </div>
+        <div class='col-md-2'>
+            <label class='radio-inline'>
+              <input type='radio' class='q-radio' value='op4' name='que4'>I will ask for someones consultation to help me to quit it.
+            </label>
+        </div>
+
+       </div>
+</div><hr>
+
+
+
+    <div class='que'>
+      <h4>5. Imagine a situation where you have to lend some money to your beloved friend but you don’t have the assurance that he/she may return that money back or not what you will do?</h4>
+      <div class='row q-radio-div'> 
+        <div class='col-md-2'>
+            <label class='radio-inline'>
+              <input type='radio' class='q-radio' value='op1' name='que5'>I will bluntly say no to that person.
+            </label>
+        </div>
+        <div class='col-md-2'>
+            <label class='radio-inline'>
+              <input type='radio' class='q-radio' value='op2' name='que5'>I will rather give any stupid reason to escape the situation.
+            </label>
+        </div>
+        <div class='col-md-2'>
+            <label class='radio-inline'>
+              <input type='radio' class='q-radio' value='op3' name='que5'>I will lend him/her the money but will ask something in exchange.
+            </label>
+        </div>
+        <div class='col-md-2'>
+            <label class='radio-inline'>
+              <input type='radio' class='q-radio' value='op4' name='que5'>I will lend him/her some money happily because that person is my friend 
+            </label>
+        </div>
+
+       </div>
+</div><hr>
+
+
+    <div class='que'>
+      <h4>6. Imagine a situation where you are being offered a huge amount of money for any work but that work is harmful for other people (say mass) What will you do?</h4>
+      <div class='row q-radio-div'> 
+        <div class='col-md-2'>
+            <label class='radio-inline'>
+              <input type='radio' class='q-radio' value='op1' name='que6'>I will give priority to money and will do that work.
+            </label>
+        </div>
+        <div class='col-md-2'>
+            <label class='radio-inline'>
+              <input type='radio' class='q-radio' value='op2' name='que6'>I will deny for that work.
+            </label>
+        </div>
+        <div class='col-md-2'>
+            <label class='radio-inline'>
+              <input type='radio' class='q-radio' value='op3' name='que6'>I will agree for that work but will also try to help the mass after something bad happens.
+            </label>
+        </div>
+        <div class='col-md-2'>
+            <label class='radio-inline'>
+              <input type='radio' class='q-radio' value='op4' name='que6'>I will try to find a mid way so that I will get the money as well as will save the people from getting affected.
+            </label>
+        </div>
+       </div>
+</div><hr>
+
+    <div class='que'>
+      <h4>7. Sometimes every single person feels burned out. How many times do u feel like that?</h4>
+      <div class='row q-radio-div'> 
+        <div class='col-md-2'>
+            <label class='radio-inline'>
+              <input type='radio' class='q-radio' value='op1' name='que7'>After every single task or big work.
+            </label>
+        </div>
+        <div class='col-md-2'>
+            <label class='radio-inline'>
+              <input type='radio' class='q-radio' value='op2' name='que7'>Once in a month.
+            </label>
+        </div>
+        <div class='col-md-2'>
+            <label class='radio-inline'>
+              <input type='radio' class='q-radio' value='op3' name='que7'>Never.
+            </label>
+        </div>
+        <div class='col-md-2'>
+            <label class='radio-inline'>
+              <input type='radio' class='q-radio' value='op4' name='que7'>Once in a week.
+            </label>
+        </div>
+       </div>
+</div><hr>
+
+    <div class='que'>
+      <h4>8.  Imagine a situation where you have to speak the truth about something but after exposing the truth you may get scolded. What will you do?</h4>
+      <div class='row q-radio-div'> 
+        <div class='col-md-2'>
+            <label class='radio-inline'>
+              <input type='radio' class='q-radio' value='op1' name='que8'>Will lie instead.
+            </label>
+        </div>
+        <div class='col-md-2'>
+            <label class='radio-inline'>
+              <input type='radio' class='q-radio' value='op2' name='que8'>Will say the truth and face the consequences
+            </label>
+        </div>
+        <div class='col-md-2'>
+            <label class='radio-inline'>
+              <input type='radio' class='q-radio' value='op3' name='que8'>Will try to blame someone else.
+            </label>
+        </div>
+        <div class='col-md-2'>
+            <label class='radio-inline'>
+              <input type='radio' class='q-radio' value='op4' name='que8'>Will try to manipulate the situation.
+            </label>
+        </div>
+       </div>
+</div><hr>
+
+      
+   <button class='btn btn-lg btn-block btn-primary submit2' name='submit'>Submit</button>
+    </div>
+  	</div><!-- questions div end -->
+      </div>
+      <script>
+        $(document).ready(function(e){
+    $(document).on('click','.submit2',function(){
+        swal("Great!", "Your response has been recorded!", "success");
+    })
+})
+      </script>
+</body>
+</html>
